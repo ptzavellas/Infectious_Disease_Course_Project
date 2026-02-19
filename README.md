@@ -122,10 +122,16 @@ Estimated separate transmission rates (β₁, β₂, ...)
 ## Tools Used
 
 - R
-- tidyverse
-- deSolve (SEIR modeling)
-- nimble (Bayesian modeling)
-- ggplot2
+- EpiEstim (Rt estimation)
+- deSolve (SEIR differential equations)
+- nimble & rstan (Bayesian inference)
+- coda & bayesplot (MCMC diagnostics)
+- ggplot2 & viridis (visualization)
+- dplyr & reshape2 (data manipulation)
+- socialmixr (contact matrices)
+- R0 (basic reproduction number estimation)
+- rootSolve
+- shinySIR
 
 ---
 
